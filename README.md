@@ -9,5 +9,5 @@ The script automatically detects all `.fastq.gz` files in the current working di
 The tool supports multiple operational modes including:
 - FASTQ upload + MD5 validation with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH>
 - Validation-only mode without re-upload of FASTQ with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH> --validate-only
-- GCP folder MD5 reporting mode with command "--gcp-folder-md5", python3 upload_fastq_gcp.py <GCP_FOLDER_PATH> --gcp-folder-md5
+- GCP folder MD5 reporting mode with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH> --gcp-folder-md5
 
