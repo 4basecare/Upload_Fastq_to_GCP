@@ -6,7 +6,7 @@ upload_fastq_gcp.py is a Python-based automation utility designed for NGS and bi
 
 The script automatically detects all `.fastq.gz` files in the current working directory, uploads them to a specified GCP bucket/folder using `gsutil`, and compares local MD5 checksums against MD5 values retrieved from GCP. This helps ensure FASTQ files are uploaded without corruption or incomplete transfer.
 
-The tool supports multiple operational modes including:
+The script supports multiple operational modes including:
 - FASTQ upload + MD5 validation with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH>
 - Validation-only mode without re-upload of FASTQ with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH> `--validate-only`
 - GCP folder MD5 reporting mode with command, python3 upload_fastq_gcp.py <GCP_FOLDER_PATH> `--gcp-folder-md5`
